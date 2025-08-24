@@ -78,7 +78,7 @@ select {
 	font-size: 14px;
 	letter-spacing: 0.1em;
 	color: #d2cecf;
-	background: #242832;
+	background-color: #242832;
 	text-align: center;
 	border-radius: 8px;
 }
@@ -102,6 +102,14 @@ textarea {
 
 [type="submit"] {
 	background-color: #BD277C;
+}
+
+[type="submit"]:active {
+	background-color: #242832;
+}
+
+[type="reset"]:active {
+	background-color: #242832;
 }
 
 .form__btns {
