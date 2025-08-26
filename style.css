@@ -71,7 +71,7 @@ label, p {
 	width: 313px;
 	height: 28px;
 	display: flex;
-	justify-content: start;
+	justify-content: end;
 	align-items: center;
 }
 
@@ -127,4 +127,12 @@ textarea {
 
 input#policy {
 	width: 70px;
+}
+
+input#man {
+	width: 63px;
+}
+
+input#woman {
+	width: 63px;
 }
